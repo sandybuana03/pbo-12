@@ -20,7 +20,7 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         /* mengambil nilai jari-jari pada variabel "variabel_jarijari" 
          "variabel_jarijari" ada pada jTextField */
         r = Double.valueOf(variabel_jarijari.getText()); // Double D besar
-        
+                                                         // valueOf | v kecil | Of O gede
         
         /* Perhitungan Rumus Mulai */
         // Rumus UMUM Keliling Lingkaran = 2 * pi * jari-jari (2 pi eR)
