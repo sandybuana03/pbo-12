@@ -16,7 +16,7 @@
         s = Double.valueOf(variabel_sisi.getText()); // ambil nilai sisi
         
         k = 4 * s; // hitung keliling
-        l = s * s; // hirung luas
+        l = s * s; // hitung luas
         
         // ubah numerik ke string
         // mengubah nilai numerik k ke string dan simpan ke keliling
