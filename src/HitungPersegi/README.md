@@ -1,48 +1,31 @@
-## APLIKASI PERHITUNGAN LINGKARAN
+## APLIKASI PERHITUNGAN PERSEGI
 
 
 ### 1. Desain Form Seperti Gambar Dibawah kemudian sesuaikan penamaan VARIABEL untuk jTextField
 
-![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungLingkaran/variabel_lingkaran.png)
+![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungPersegi/variabel_persegi.png)
 
 ### 2. Klik 2x Tombol Hitung Kemudian masukkan kode berikut : DAN CERMATI BAIK_BAIK
 
 
 ```java
 
-private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // Deklarasi variabel
-        double r, k, l; // double d kecil, double = bilangan pecahan
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        double s,k,l; // deklarasi variabel
         
-        // Konstanta untuk Pi lingkaran, bernilai 3.14
-        final double PI = 3.14;
+        s = Double.valueOf(variabel_sisi.getText()); // ambil nilai sisi
         
-        /* mengambil nilai jari-jari pada variabel "variabel_jarijari" 
-         "variabel_jarijari" ada pada jTextField */
-        r = Double.valueOf(variabel_jarijari.getText()); // Double D besar
-                                                         // valueOf | v kecil | Of O gede
+        k = 4 * s; // hitung keliling
+        l = s * s; // hirung luas
         
-        /* Perhitungan Rumus Mulai */
-        // Rumus UMUM Keliling Lingkaran = 2 * pi * jari-jari (2 pi eR)
-        k = 2 * PI * r;
+        // ubah numerik ke string
+        // mengubah nilai numerik k ke string dan simpan ke keliling
+        String keliling = String.valueOf(k); 
+        // mengubah nilai numerik l ke string dan simpan ke luas
+        String luas = String.valueOf(l); 
         
-        // Rumus UMUM Luas Lingkaran = phi * jari-jari * jari-jari (pi eR Kuadrat)
-        l = PI * (Math.pow(r, 2)); // Math.pow(angka, pangkatnya)
-                                   // digunakan untuk menghitung perpangkatan
-        /* Perhitungan Rumus Selesai */
-        
-        /* Nilai Hasil Perhitungan Masih bentuk numerik
-           Jadi Harus diubah ke bentuk kalimat / String 
-           Agar dapat ditampilkan pada jTextField
-        */
-        
-        // Ubah ke String, dan deklarasi variabel
-        /* cara lain mendeklarasikan variabel :
-           tipeData namaVariabel = nilai; */
-        String keliling = String.valueOf(k); // ubah k (numerik) ke keliling (string)
-        String luas = String.valueOf(l); // ubah l (numerik) ke luas (string)
-        
-        // Tampilkan hasilnya ke jTextField
+        // men-set text untuk textField (variabel_keliling & variabel_luas)
+        // dengan cara mengambil nilai dari variabel string diatas (keliling dan luas)
         variabel_keliling.setText(keliling);
         variabel_luas.setText(luas);
     }
@@ -55,4 +38,4 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
 ### 3. Jalankan Program dan Berikut adalah Hasilnya :
 
-![Hasil](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungLingkaran/hasil_lingkaran.png)
+![Hasil](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungPersegi/hasil_persegi.png)
