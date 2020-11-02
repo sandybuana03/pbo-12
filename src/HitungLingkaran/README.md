@@ -3,7 +3,7 @@
 
 ### 1. Desain Form Seperti Gambar Dibawah kemudian sesuaikan penamaan VARIABEL untuk jTextField
 
-![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/HitungLingkaran/PenamaanVariabel.png)
+![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungLingkaran/variabel_lingkaran.png)
 
 ### 2. Klik 2x Tombol Hitung Kemudian masukkan kode berikut : DAN CERMATI BAIK_BAIK
 
@@ -55,4 +55,4 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
 
 ### 3. Jalankan Program dan Berikut adalah Hasilnya :
 
-![Hasil](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/HitungLingkaran/Hasil.png)
+![Hasil](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungLingkaran/hasil_lingkaran.png)
