@@ -5,7 +5,7 @@
 
 ![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/HitungLingkaran/PenamaanVariabel.png)
 
-### 2. Klik 2x Tombol Hitung Kemudian masukkan kode berikut :
+### 2. Klik 2x Tombol Hitung Kemudian masukkan kode berikut : DAN CERMATI BAIK_BAIK
 
 
 ```java
