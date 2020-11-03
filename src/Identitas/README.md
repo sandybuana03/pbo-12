@@ -10,14 +10,15 @@
 
 ```java
 
-// men set label [nama_variabel_jLabel.setText] dengan String dan mengambil nilai dari variabel jTextField
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // men set label [nama_variabel_jLabel.setText] dengan String dan mengambil nilai dari variabel jTextField
         // String selalu ditulis dalam tanda petik dua (" ISI_STRING ")
         // tanda plus (+) setelah string digunakan untuk menambah hal lain
         // hal lain disini adalah mengambil nilai dari masing-masing variabel jTextField [nama_variabel_jTextField.getText]
         label_nama.setText("Nama Siswa ; " + variabel_nama.getText());
         label_kelas.setText("Kelas            : " + variabel_kelas.getText());
         label_jurusan.setText("Jurusan       : " + variabel_jurusan.getText());
-    
+    }
     
 ```
 
