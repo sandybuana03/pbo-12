@@ -1,7 +1,7 @@
 ## APLIKASI TAMPIL IDENTITAS SISWA
 
 
-### 1. Desain Form Seperti Gambar Dibawah kemudian sesuaikan penamaan VARIABEL untuk jTextField
+### 1. Desain Form Seperti Gambar Dibawah kemudian sesuaikan penamaan VARIABEL untuk jTextField dan jLabel
 
 ![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/Identitas/desain_variabel.png)
 
