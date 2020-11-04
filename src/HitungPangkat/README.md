@@ -1,7 +1,7 @@
 ## APLIKASI PERHITUNGAN PANGKAT
 
 
-### 1. Desain Form Seperti Gambar Dibawah kemudian sesuaikan penamaan VARIABEL untuk jTextField
+### 1. Desain Form Seperti Gambar Dibawah kemudian sesuaikan penamaan VARIABEL untuk jTextField dan jLabel
 
 ![Penamaan Variabel](https://raw.githubusercontent.com/sandybuana03/pbo-12/main/src/HitungPangkat/desain_variabel.png)
 
