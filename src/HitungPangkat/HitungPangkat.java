@@ -140,15 +140,16 @@ public class HitungPangkat extends javax.swing.JFrame {
         // Deklarasi variabel
         int angka, pangkat, hasil;
         
-        // Mengambil nilai dari masing-masing jTextField
+        // Mengambil nilai dari masing-masing variabel jTextField
         angka = Integer.valueOf(variabel_angka.getText());
         pangkat = Integer.valueOf(variabel_pangkat.getText());
         
-        // Melakukan casting (ubah tipe data) ke int bersamaan dengan perhitungan
+        // Melakukan casting (mengubah tipe data) ke int bersamaan dengan perhitungan
         // Karena tipe data default Math.pow adalah double jadi harus diubah
         hasil = (int)Math.pow(angka,pangkat);
         
         // Ubah hasil ke String
+        // simpan ke dalam variabel jawaban
         String jawaban = String.valueOf(hasil);
         
         // Tampilkan jawaban ke label_hasil
